@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test-for-cc"
+version = "0.1.0"
+description = "career center test"
+authors = ["frame <frame.boo@gmail.com>"]
+license = "open"
+readme = "README.md"
+packages = [{include = "test_for_cc"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2-binary = "^2.9.5"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
